@@ -434,7 +434,7 @@ section .container {
 .intro-slider .owl-carousel .owl-dots {
 	position: absolute;
 	bottom: 85px;
-	right: 30px;
+	left: 30px;
 }
 .intro-slider .owl-dots .owl-dot span {
 	width: 10px;
@@ -578,7 +578,7 @@ section .container {
 	transition: all 0.4s ease;
 }
 .owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
-	background: rgba(255, 0, 0, 0.8);
+	background: #023066;
 }
 
 
@@ -651,12 +651,12 @@ section .container {
 	color: #FFF;
 	background-color: rgba(255, 255, 255, 0.16);
 	border-radius: 50%;
-	box-shadow: inset 0px 0px rgba(255, 0, 0, 0.82);
+	box-shadow: inset 0px 0px rgba(2, 48, 102, 0.82);
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
 .info-box:hover .info-box-icon {
-	box-shadow: inset 0px -75px rgba(255, 0, 0, 0.82);
+	box-shadow: inset 0px -75px rgba(2, 48, 102, 0.82);
 }
 .info-box-heading {
 	display: inline-block;

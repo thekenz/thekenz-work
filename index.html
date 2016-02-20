@@ -11,7 +11,7 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Personal Website of Ken Cunanan</title>
+        <title>Work Dot The Kenz</title>
         <meta name="description" content="Responsive One Page HTML5 Template">
         <meta name="keywords" content="HTML5, CSS, Bootsrtrap, Responsive, Template" />
         <meta name="author" content="http://themetorium.tumblr.com">
@@ -101,7 +101,7 @@
             <div class="nav-inner">
 
                 <!-- menu header -->
-                <div class="menu-header">Menu</div>
+                <div class="menu-header">Main Page</div>
 
                 <!-- Begin single links wrapper -->
                 <ul class="cd-navigation cd-single-item-wrapper">
@@ -114,28 +114,38 @@
                     <li><a href="#section-8" class="page-scroll">FAQ</a></li>
                     <li><a href="#section-9" class="page-scroll">Blog</a></li>
                     <li><a href="#section-11" class="page-scroll">Contact</a></li>
-
-                    <li class="menu-separator"></li>
-
-                    <li><a href="index.html">Parallax Intro</a></li>
-                    <li><a href="slideshow-intro.html">Slideshow Intro</a></li>
-                    <li><a href="video-intro.html">Youtube Video Intro</a></li>
-                    <li><a href="404.html">404 Error Page</a></li>
                 </ul>
                 <!-- End single links wrapper -->
 
-                <div class="menu-separator"></div>
+                    <div class="menu-header">Key Skills</div>
+
+                  <ul class="cd-navigation">
+                    <li><a href="index.html">Design</a></li>
+                    <li><a href="slideshow-intro.html">Data</a></li>
+                    <li><a href="video-intro.html">Strategy</a></li>
+                  </ul>
+                <!-- End single links wrapper -->
+
+                <div class="menu-header">More About Me</div>
 
                 <!-- Begin links with sub menu -->
                 <ul class="cd-navigation">
 
-                    <!-- item has children -->
                     <li class="item-has-children">
-                        <a href="#0">Sub Menu</a>
+                        <a href="#0">Resume</a>
                         <ul class="sub-menu">
-                            <li><a href="#">Sub Link 1</a></li>
-                            <li><a href="#">Sub Link 2</a></li>
-                            <li><a href="#">Sub Link 3</a></li>
+                            <li><a href="#">Looker</a></li>
+                            <li class="item-has-children">
+                                <a href="#0">SOURCE Consulting</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Temple Beth Isr</a></li>
+                                    <li><a href="#">Sub Link 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Center for Writing</a></li>
+                            <li><a href="#">Code for America</a></li>
+                            <li><a href="#">Hewlett Packard</a></li>
+                            <li><a href="#">Save the Children</a></li>
                         </ul>
                     </li>
 
@@ -185,81 +195,207 @@
         <div id="body-content">
 
 
-            <!-- Begin intro section (Parallax) -->
-            <section id="section-intro" class="intro-parallax full-height">
+          <!-- Begin intro section (Slider) -->
+          <section id="section-intro" class="intro-slider no-padding">
 
-                <!-- Element background image (parallax) -->
-                <div class="full-cover bg-image" data-stellar-ratio="0.2" style="background-image: url(img/intro/parallax-intro-bg_kenz.jpg);"></div>
+              <!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
+              ============================
+              * Available carousel data attributes:
+                  data-items="1".......................(items visible on desktop)
+                  data-items-mobile-portrait="1".......(items visible on mobiles)
+                  data-items-mobile-landscape="1"......(items visible on mobiles)
+                  data-items-tablet="1"................(items visible on tablets)
+                  data-loop="true".....................(true/false)
+                  data-margin="10".....................(space between items)
+                  data-center="false"..................(true/false)
+                  data-start-position="0"..............(item start position)
+                  data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
+                  data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
+                  data-mouse-drag="true"...............(true/false)
+                  data-autoheight="false"..............(true/false)
+                  data-autoplay="true".................(true/false)
+                  data-autoplay-timeout="5000".........(milliseconds)
+                  data-autoplay-hover-pause="true".....(true/false)
+                  data-autoplay-speed="800"............(milliseconds)
+                  data-nav="true"......................(true/false)
+                  data-nav-speed="800".................(milliseconds)
+                  data-dots="true".....................(true/false)
+                  data-dots-speed="800"................(milliseconds)
+              -->
+              <div class="owl-carousel intro-carousel" data-items="1" data-loop="true" data-autoplay="true" data-autoplay-timeout="8000" data-autoplay-hover-pause="true" data-autoplay-speed="600" data-dots="true" data-dots-speed="600" data-nav="true" data-nav-speed="600" data-animate-in="fadeIn" data-animate-out="fadeOut">
 
-                <!-- Element cover -->
-                <div class="cover"></div>
+                  <!-- ===== Begin Intro slide-1 ===== -->
+                  <div class="slide-wrapper intro-slide-1 full-height bg-image">
 
-                <!-- Intro caption -->
-                <div class="intro-caption text-white" data-stellar-ratio="0.6">
-                    <h1>Work<br>
-                        Page<br>
-                        <span class="bg-white text-red"><i class="fa fa-heart"></i></span>
-                    </h1>
-                    <p>And a really great story.</p>
-                </div>
+                      <!-- Element cover -->
+                      <div class="cover"></div>
 
-                <!-- Made with love :) -->
-                <div class="made-with-love hidden-xs" data-stellar-ratio="0.2">
-                    <p class="text-white">made with <span class="text-red"><i class="fa fa-heart"></i></span></p>
-                </div>
+                      <!-- Slide background image -->
+                      <div class="slide-image full-cover bg-image" style="background-image: url(img/intro/slider/intro-slide-bg-2.jpg);"></div>
 
-                <!-- Scroll down arrow -->
-                <a class="scroll-down-arrow page-scroll text-center" href="#section-1"><span class="text-white"><i class="fa fa-arrow-down"></i></span></a>
+                      <!-- Intro caption -->
+                      <div class="intro-caption text-white">
+                          <h1><span class="bg-main text-white">Design</span> Section
+                          </h1>
+                          <p>ute enim ad venim</p>
+                      </div>
 
-            </section>
-            <!-- End intro section (Parallax) -->
+                  </div>
+                  <!-- ===== End Intro slide-1 ===== -->
 
-            <!-- What this site is -->
-            <section id="section-1" class="welcome bg-dark text-white">
-                <div class="container">
-                    <div class="row">
+                  <!-- ===== Begin Intro slide-2 ===== -->
+                  <div class="slide-wrapper intro-slide-2 full-height bg-image">
 
-                        <div class="col-left col-md-6">
-                            <div class="col-inner">
+                      <!-- Element cover -->
+                      <div class="cover"></div>
 
-                                <!-- Begin Heading -->
-                                <div class="heading heading-xlg">
-                                    <h1><span class="bg-white text-dark">Hi</span><span class="bg-white text-dark">There.</span></h1>
-                                </div>
-                                <!-- End Heading -->
+                      <!-- Slide background image -->
+                      <div class="slide-image full-cover bg-image" style="background-image: url(img/intro/slider/intro-slide-bg-3.jpg);"></div>
 
-                                <p class="lead">Do something <span class="bg-main text-white"><strong>remarkable</strong></span> today.</p>
+                      <!-- Intro caption -->
+                      <div class="intro-caption text-white">
+                          <h1><span class="bg-main text-white">Data</span> Section
+                          </h1>
+                          <p>cras vel nibh</p>
+                      </div>
 
-                            </div> <!-- /.col-inner -->
-                        </div> <!-- /.col -->
+                  </div>
+                  <!-- ===== End Intro slide-2 ===== -->
 
-                        <div class="col-right col-md-6">
-                            <div class="col-inner">
+                  <!-- ===== Begin Intro slide-3 ===== -->
+                  <div class="slide-wrapper intro-slide-3 full-height bg-image">
 
-                                <p class="welcome-header">
-                                  I'm here to start a movement.
-                                </p>
+                      <!-- Element cover -->
+                      <div class="cover"></div>
 
-                                <br>
+                      <!-- Slide background image -->
+                      <div class="slide-image full-cover bg-image" style="background-image: url(img/intro/slider/intro-slide-bg-1.jpg);"></div>
 
-                                <p class="lead">
-                                    Throughout my life, I've been fascinated by the things
-                                    that propel people to move, take action, and make a difference.
-                                    <br><br>
-                                    This passion has taken me on a journey to the floors of Congress,
-                                    the lobbying departments of international NGOs, and the largest companies in Silicon Valley, all
-                                    to understand the forces that turn ideas into movements, and passion into action.
-                                    <br><br>
-                                    Currently, I'm working at Looker, a business intelligence startup in Santa Cruz, where
-                                    I'm witnessing the movement to bring data and analytics to everyone.
-                                </p>
+                      <!-- Intro caption -->
+                      <div class="intro-caption text-white">
+                          <h1><span class="bg-main text-white">Strategy</span> Section
+                          </h1>
+                          <p>tempus odio fusce</p>
+                      </div>
 
-                            </div>
-                        </div> <!-- /.col -->
+                  </div>
+                  <!-- ===== End Intro slide-2 ===== -->
 
-                    </div> <!-- /.row -->
-                </div> <!-- /.container -->
-            </section>
+              </div>
+              <!-- End content carousel -->
+
+
+              <!-- Made with love :) -->
+              <div class="made-with-love hidden-xs">
+                  <p class="text-white">made with <span class="text-red"><i class="fa fa-heart-o"></i></span></p>
+              </div>
+
+              <!-- Scroll down arrow -->
+              <a class="scroll-down-arrow page-scroll text-center" href="#section-1"><span class="text-white"><i class="fa fa-arrow-down"></i></span></a>
+
+          </section>
+          <!-- End intro section (Slider) -->
+
+          <!-- What this site is -->
+          <section id="section-1" class="welcome bg-dark text-white">
+              <div class="container">
+                  <div class="row">
+
+                      <div class="col-left col-md-6">
+                          <div class="col-inner">
+
+                              <!-- Begin Heading -->
+                              <div class="heading heading-xlg">
+                                  <h1><span class="bg-white text-dark">Hi</span><span class="bg-white text-dark">There.</span></h1>
+                              </div>
+                              <!-- End Heading -->
+
+                              <p class="lead">Here's my <span class="bg-main text-white"><strong>remarkable</strong></span> today.</p>
+
+                          </div> <!-- /.col-inner -->
+                      </div> <!-- /.col -->
+
+                      <div class="col-right col-md-6">
+                          <div class="col-inner">
+
+                              <p class="welcome-header">
+                                I'm here to start a movement.
+                              </p>
+
+                              <br>
+
+                              <p class="lead">
+                                  Throughout my life, I've been fascinated by the things
+                                  that propel people to move, take action, and make a difference.
+                                  <br><br>
+                                  This passion has taken me on a journey to the floors of Congress,
+                                  the lobbying departments of international NGOs, and the largest companies in Silicon Valley, all
+                                  to understand the forces that turn ideas into movements, and passion into action.
+                                  <br><br>
+                                  Currently, I'm working at Looker, a business intelligence startup in Santa Cruz, where
+                                  I'm witnessing the movement to bring data and analytics to everyone.
+                              </p>
+
+                          </div>
+                      </div> <!-- /.col -->
+
+                  </div> <!-- /.row -->
+              </div> <!-- /.container -->
+          </section>
+
+          <!-- Section 7 -->
+          <section id="section-7" class="testimonial bg-dark text-white">
+              <div class="container">
+
+                  <!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
+        ============================
+        * Available carousel data attributes:
+          data-items="1".......................(items visible on desktop)
+          data-items-mobile-portrait="1".......(items visible on mobiles)
+          data-items-mobile-landscape="1"......(items visible on mobiles)
+          data-items-tablet="1"................(items visible on tablets)
+          data-loop="true".....................(true/false)
+          data-margin="10".....................(space between items)
+          data-center="false"..................(true/false)
+          data-start-position="0"..............(item start position)
+          data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
+          data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
+          data-mouse-drag="true"...............(true/false)
+          data-autoheight="false"..............(true/false)
+          data-autoplay="true".................(true/false)
+          data-autoplay-timeout="5000".........(milliseconds)
+          data-autoplay-hover-pause="true".....(true/false)
+          data-autoplay-speed="800"............(milliseconds)
+          data-nav="true"......................(true/false)
+          data-nav-speed="800".................(milliseconds)
+          data-dots="true".....................(true/false)
+          data-dots-speed="800"................(milliseconds)
+        -->
+                  <div class="owl-carousel testimonial-carousel text-center" data-items="1" data-loop="true" data-autoplay="true" data-autoplay-timeout="8000" data-autoplay-hover-pause="true" data-autoplay-speed="600" data-dots="true" data-dots-speed="600">
+                      <blockquote>
+                          <p>"I never did anything by accident, nor did any of my inventions come by accident; they came by work."</p>
+                          <footer><cite title="Source Title">Thomas A. Edison</cite></footer>
+                      </blockquote>
+
+                      <blockquote>
+                          <p>"Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important."</p>
+                          <footer><cite title="Source Title">Bill Gates</cite></footer>
+                      </blockquote>
+
+                      <blockquote>
+                          <p>"If you want others to be happy, practice compassion. If you want to be happy, practice compassion."</p>
+                          <footer><cite title="Source Title">Dalai Lama</cite></footer>
+                      </blockquote>
+
+                      <blockquote>
+                          <p>"Some painters transform the sun into a yellow spot, others transform a yellow spot into the sun."</p>
+                          <footer><cite title="Source Title">Pablo Picasso</cite></footer>
+                      </blockquote>
+                  </div>
+                  <!-- End content carousel -->
+
+              </div> <!-- /.container -->
+          </section>
 
             <!-- Who I AM -->
             <section id="section-2" class="team split-box no-padding">
@@ -904,61 +1040,6 @@
             </section>
 
 
-            <!-- Section 7 -->
-            <section id="section-7" class="testimonial bg-dark text-white">
-                <div class="container">
-
-                    <!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
-					============================
-					* Available carousel data attributes:
-						data-items="1".......................(items visible on desktop)
-						data-items-mobile-portrait="1".......(items visible on mobiles)
-						data-items-mobile-landscape="1"......(items visible on mobiles)
-						data-items-tablet="1"................(items visible on tablets)
-						data-loop="true".....................(true/false)
-						data-margin="10".....................(space between items)
-						data-center="false"..................(true/false)
-						data-start-position="0"..............(item start position)
-						data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
-						data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
-						data-mouse-drag="true"...............(true/false)
-						data-autoheight="false"..............(true/false)
-						data-autoplay="true".................(true/false)
-						data-autoplay-timeout="5000".........(milliseconds)
-						data-autoplay-hover-pause="true".....(true/false)
-						data-autoplay-speed="800"............(milliseconds)
-						data-nav="true"......................(true/false)
-						data-nav-speed="800".................(milliseconds)
-						data-dots="true".....................(true/false)
-						data-dots-speed="800"................(milliseconds)
-					-->
-                    <div class="owl-carousel testimonial-carousel text-center" data-items="1" data-loop="true" data-autoplay="true" data-autoplay-timeout="8000" data-autoplay-hover-pause="true" data-autoplay-speed="600" data-dots="true" data-dots-speed="600">
-                        <blockquote>
-                            <p>"I never did anything by accident, nor did any of my inventions come by accident; they came by work."</p>
-                            <footer><cite title="Source Title">Thomas A. Edison</cite></footer>
-                        </blockquote>
-
-                        <blockquote>
-                            <p>"Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important."</p>
-                            <footer><cite title="Source Title">Bill Gates</cite></footer>
-                        </blockquote>
-
-                        <blockquote>
-                            <p>"If you want others to be happy, practice compassion. If you want to be happy, practice compassion."</p>
-                            <footer><cite title="Source Title">Dalai Lama</cite></footer>
-                        </blockquote>
-
-                        <blockquote>
-                            <p>"Some painters transform the sun into a yellow spot, others transform a yellow spot into the sun."</p>
-                            <footer><cite title="Source Title">Pablo Picasso</cite></footer>
-                        </blockquote>
-                    </div>
-                    <!-- End content carousel -->
-
-                </div> <!-- /.container -->
-            </section>
-
-
             <!-- Section 8 -->
             <section id="section-8" class="faq">
                 <div class="container">
@@ -1105,7 +1186,7 @@
                                 <a href="#" target="_blank" class="article-link"></a>
                                 <!-- Begin Heading -->
                                 <div class="heading heading-md align-center">
-                                    <h1><span class="bg-white text-red">B</span>log</h1>
+                                    <h1><span class="bg-white text-blue">B</span>log</h1>
                                     <p>read all articles <i class="fa fa-arrow-right"></i></p>
                                 </div>
                                 <!-- End Heading -->
@@ -1277,7 +1358,7 @@
                                 <!-- End Heading -->
 
 								<div class="contact-info">
-	                                <p><i class="fa fa-home"></i> 101 Church St. Santa Cruz, CA 95060</p>
+	                                <p><i class="fa fa-briefcase"></i> 101 Church St. Santa Cruz, CA 95060</p>
 	                                <p><i class="fa fa-phone"></i> +1 818 357 7953</p>
 	                                <p><i class="fa fa-envelope"></i>kenncunanan@gmail.com</p>
                                 </div>
@@ -1288,13 +1369,14 @@
                         <div class="col-right col-md-6">
                             <div class="col-inner">
 
+                              <!-- Begin Heading -->
+                              <div class="heading heading-xlg">
+                                  <h1>Send <span class="bg-main text-white"><i class="fa fa-heart"></i></span></h1>
+                              </div>
+                              <!-- End Heading -->
+
                                 <!-- Socials icons (replace "http://link.com" widh your own link) -->
-                                <div class="social-icons">
-                                    <a href="https://www.facebook.com/lolthekenz" target="_blank"><i class="fa fa-facebook"></i></a>
-                                    <a href="https://twitter.com/lolthekenz" target="_blank"><i class="fa fa-twitter"></i></a>
-                                    <a href="https://www.instagram.com/swugkenny" target="_blank"><i class="fa fa-instagram"></i></a>
-                                    <a href="https://www.linkedin.com/in/thekenz" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                </div>
+
 
                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kenncunanan@gmail.com&subject=Hi" target="_blank" class="btn btn-danger btn-rounded btn-lg">say hello <i class="fa fa-paper-plane-o"></i></a>
 
@@ -1312,8 +1394,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright small">
-                                <a href="#">RED</a>
-                                <p>Copyright © All Rights Reserved</p>
+                                <a href="#">TheKenz</a>
+                                <p>Modified from the <a href="https://creativemarket.com/Themetorium/332157-RED-One-Page-HTML5-Template">RED Theme from Creative Market</a>.</p>
                             </div>
                         </div>
                     </div>
